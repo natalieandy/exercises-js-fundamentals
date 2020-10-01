@@ -22,11 +22,16 @@
  */
 
 function countLetter(string, letter) {
-  // This is your job. :)
+  const iterable = string
+  for (const value of iterable) {
+
+    // This is your job. :)
 }
 
 if (require.main === module) {
   console.log('Running sanity checks for countLetter:');
+  console.log(countLetter('Natalie', 'a'));
+
 
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
