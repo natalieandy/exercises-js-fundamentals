@@ -22,4 +22,3 @@ if (require.main === module) {
 }
 
 module.exports = isZero;
-//Not sure what's happening with line 20?
