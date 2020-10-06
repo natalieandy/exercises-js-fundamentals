@@ -22,11 +22,15 @@
  * @returns {number} The fibonacci of num
  */
 function fibonacci(n) {
+  return fibonacci(n - 1) + fibonacci(n - 2);
   // This is your job. :)
 }
 
 if (require.main === module) {
   console.log('Running sanity checks for fibonacci:');
+  console.log(fibonacci(5));
+  console.log(fibonacci(2));
+  console.log(fibonacci(8));
 
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?

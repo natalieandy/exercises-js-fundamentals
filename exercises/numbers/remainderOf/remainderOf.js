@@ -15,17 +15,34 @@
  * @param {number} num The input number
  * @returns {boolean} True if num is even and false otherwise
  */
+
 function remainderOf(n, d) {
+  let n = n;
+  let d = d;
+
+  let count = 0;
+
+  console.log('Initial number:', n);
+  console.log('Take away amount:', d);
+
+  while (n >= d) {
+    count = count + 1;
+    console.log('Inital number is:', n);
+    n = n - d;
+  }
+
   /*
     This is your job. :)
 
     If you're not sure, step out of the code and use pen + paper. Start
     with simple examples and pay attention to the process you carry out.
+
   */
 }
 
 if (require.main === module) {
   console.log('Running sanity checks for remainderOf');
+
 
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
