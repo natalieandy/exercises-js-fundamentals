@@ -16,11 +16,14 @@
  */
 
 function toLowerCase(string) {
+  return string.toLowerCase
   // This is your job. :)
 }
 
 if (require.main === module) {
-  console.log('Running sanity checks for toLowerCase:');
+  console.log(toLowerCase('Running sanity checks for toLowerCase:'));
+
+  console.log(toLowerCase('15 HOURS TIL I LAND I BE OUT LIKE A LIGHT'));
 
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?

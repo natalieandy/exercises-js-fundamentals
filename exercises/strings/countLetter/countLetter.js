@@ -37,4 +37,4 @@ if (require.main === module) {
   // How else will you be sure your code does what you think it does?
 }
 
-module.exports = countLetter;
+module.exports = countLetter}

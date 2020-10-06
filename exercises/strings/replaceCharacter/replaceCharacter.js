@@ -13,6 +13,9 @@
  */
 
 function replaceCharacter(string, target, replaceWith) {
+  let string = 'Giving this a shot, idk if it will work';
+  let regex = /shot/gi;
+  let newCharacter = string.replaceAll(regex, )
   // This is your job. :)
 }
 

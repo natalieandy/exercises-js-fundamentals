@@ -11,8 +11,8 @@
  * @returns {boolean} True if num is prime and false otherwise
  */
 function isPrime(num) {
-  if (num / num === 1 && num / 1 === num) {
-    // And number is not divisible by any other integer ?! Wtf do I write for that bs
+  if (num / num === 1 && num / 1 === num && num / num ) {
+    // And number is not divisible by any other integer ?! Wtf do I write for that bs: use the ! (NOT operator) or !==
     return true;
   } else if (num / )
   // number

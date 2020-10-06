@@ -7,6 +7,7 @@
  * @returns {number} The longest string in the array
  */
 function longest(array) {
+
   // This is your job. :)
 }
 
