@@ -11,7 +11,11 @@
  * @param {number} rightSummand - The right integer of the range of sum
  * @returns {boolean} The sum of every integer between the two input integers, inclusive
  */
+
+ //Again, why boolean? Shouldn't it return a number ?
+
 function sumOfRange(leftSummand, rightSummand) {
+  return
   // This is your job. :)
 }
 

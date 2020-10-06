@@ -11,6 +11,11 @@
  * @returns {boolean} True if num is prime and false otherwise
  */
 function isPrime(num) {
+  if (num / num === 1 && num / 1 === num) {
+    // And number is not divisible by any other integer ?! Wtf do I write for that bs
+    return true;
+  } else if (num / )
+  // number
   /*
     Your code goes here.
 
@@ -28,6 +33,9 @@ if (require.main === module) {
   console.log(isPrime(1) === false);
   console.log(isPrime(2) === true);
   console.log(isPrime(4) === false);
+  console.log(isPrime(13) === true);
+  console.log(isPrime(17) === true);
+  console.log(isPrime(30) === false);
 
   // Your own sanity checks go here
 }
